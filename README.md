@@ -7,11 +7,16 @@ Each member has their own directory to work on. We will practice pushing and pul
 - **🟩 Jerwin Space** (Green)  
 - **🟨 Joshua Space** (Yellow)  
 
-### Instructions  
+## Instructions  
 1. Clone the repository.  
 2. Work within your assigned directory.  
 3. Create a separate branch to avoid conflicts.  
 4. Push your changes and pull updates from others.  
 5. Merge changes carefully to maintain a smooth workflow.  
+
+## Continuous Deployment  
+This repository is connected to GitHub Pages for automatic deployment. After committing and merging changes to the `main` branch, you can check the latest updates here:  
+
+🔗 **[Live Demo](https://ajutzu.github.io/Demo-Collaboration/)**  
 
 Happy coding! 🚀  

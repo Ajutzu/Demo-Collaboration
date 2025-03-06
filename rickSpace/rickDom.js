@@ -5,6 +5,7 @@ DOM.insertAdjacentHTML('beforeend', `
         <h1>RICK SPACE</h1>
         <p>This where you will work</p>
         <p>Test>Test>Test</p>
+        <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Meme" width="500" class="rounded shadow-lg border border-dark">
         </div>
     </div>
     `);

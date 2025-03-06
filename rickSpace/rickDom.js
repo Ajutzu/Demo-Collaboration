@@ -4,6 +4,7 @@ DOM.insertAdjacentHTML('beforeend', `
         <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Rick" class="img-fluid rounded-circle">
         <h1>RICK SPACE</h1>
         <p>This where you will work</p>
+        <p>Test>Test>Test</p>
         </div>
     </div>
     `);

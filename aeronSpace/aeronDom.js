@@ -1,7 +1,7 @@
 DOM.insertAdjacentHTML(
   "beforeend",
   `
-<div class="container vh-100 d-flex flex-column justify-content-center align-items-center bg-light">
+<div class="container d-flex flex-column justify-content-center align-items-center bg-light py-4" style="height: auto; min-height: 100vh;">
 
     <div class="row w-100 justify-content-center align-items-center text-center text-md-start">
         
@@ -16,7 +16,7 @@ DOM.insertAdjacentHTML(
 
             <div class="mb-4 d-flex align-items-center justify-content-center gap-2">
                 <img class="img-fluid" style="height: 50px; width: auto;" src="https://i.pinimg.com/originals/5f/93/49/5f934966a1d20bae1909c9ef2278bd4c.gif" alt="Goku GIF">
-                <h2 class="mb-0">こんにちは、僕は孫悟空だ！</h2>
+                <h2 class="mb-0">僕は孫悟空だ！</h2>
             </div>
 
             <p class="text-muted mb-4" style="text-align: justify;">
@@ -28,6 +28,8 @@ DOM.insertAdjacentHTML(
                 <button class="btn btn-sm btn-danger">スーパーサイヤ人</button>
                 <button class="btn btn-sm btn-warning">スーパーサイヤ人２</button>
                 <button class="btn btn-sm btn-primary">スーパーサイヤ人ブルー</button>
+                <button class="btn btn-sm btn-success">伝説のサイヤ人</button>
+
             </div>
         </div>
 

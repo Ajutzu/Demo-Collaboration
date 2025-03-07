@@ -38,6 +38,14 @@ DOM.insertAdjacentHTML(
     <span class="text-muted bg-light shadow-sm p-2 rounded" style="font-size: 14px; position: absolute; top: 5px; left: 5px;">
         🔴 修正 by AJ™
     </span>
+
+    <span class="text-muted bg-light shadow-lg border p-2 rounded-circle" style="position: fixed; bottom: 5px; right: 5px;"
+      onmouseover="this.style.transform='translateY(-10px)';"
+      onmouseout="this.style.transform='translateY(0)';">
+      <a href="https://github.com/Ajutzu/Demo-Collaboration" style="text-decoration: none;">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="img-fluid" style="width: 50px;">
+      </a>
+    </span>
 </div>
 
 

@@ -1,0 +1,47 @@
+.services-container {
+    background: linear-gradient(45deg, #000428, #004e92);
+    padding: 2rem;
+    perspective: 1500px;
+}
+
+.card-wrapper {
+    transform-style: preserve-3d;
+    transform: rotateY(-30deg) rotateX(50deg);
+    transition: transform 0.5s ease;
+}
+
+.card-wrapper:hover {
+    transform: rotateY(0deg) rotateX(0deg);
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    color: white;
+    box-shadow: 
+        0 15px 25px rgba(0,0,0,0.3),
+        0 8px 20px rgba(0,0,0,0.2);
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+}
+
+.service-card .btn-primary {
+    background-color: #0066ff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.service-card .btn-primary:hover {
+    background-color: #0052cc;
+}

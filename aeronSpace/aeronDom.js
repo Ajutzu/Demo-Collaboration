@@ -1,53 +1,58 @@
 DOM.insertAdjacentHTML(
   "beforeend",
   `
-<div class="container d-flex flex-column justify-content-center align-items-center bg-light py-4" style="height: auto; min-height: 100vh;">
-
-    <div class="row w-100 justify-content-center align-items-center text-center text-md-start">
-        
-        <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center mb-3 mb-md-0">
-            <img src="https://media2.giphy.com/media/irBHYSZxbUifTxTgBL/giphy.gif?cid=790b7611fzviljme2g32j2f8mu6udntcxnr93txn0w0xtcxx&ep=v1_gifs_search&rid=giphy.gif&ct=g" 
-                 class="img-fluid rounded"
-                 style="max-height: 300px">
-        </div>
-
-        <!-- Text Section -->
-        <div class="col-12 col-md-6 d-flex flex-column align-items-start">
-
-            <div class="mb-4 d-flex align-items-center justify-content-center gap-2">
-                <img class="img-fluid" style="height: 50px; width: auto;" src="https://i.pinimg.com/originals/5f/93/49/5f934966a1d20bae1909c9ef2278bd4c.gif" alt="Goku GIF">
-                <h2 class="mb-0">僕は孫悟空だ！</h2>
+<div class="services-container vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <!-- Left side for the title -->
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h1 class="text-white fw-bolder display-4">SERVICES</h1>
+                    <h2 class="text-white fw-light">Ganto lang kayo di siya</br> responsive pero baka kaya ng iba</br> gayang gaya</h2>
+                    <p class="text-white w-75">Report TJ Magpantay ang basher ng product team ginawaan ako ng ppt kupal prinesent pa sa buong Techexecutive.</p>
+                </div>
+                
+                <!-- Right side for the cards -->
+                <div class="col-md-6 d-flex flex-wrap">
+                    <div class="col-6 p-2">
+                        <div class="card-wrapper">
+                            <div class="service-card">
+                                <h3>Business Site</h3>
+                                <p>Professional web solutions for your business needs</p>
+                                <button class="btn btn-outline-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-2">
+                        <div class="card-wrapper">
+                            <div class="service-card">
+                                <h3>Portfolio Site</h3>
+                                <p>Showcase your work with a stunning portfolio</p>
+                                <button class="btn btn-outline-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-2">
+                        <div class="card-wrapper">
+                            <div class="service-card">
+                                <h3>E-Commerce</h3>
+                                <p>Launch your online store with ease</p>
+                                <button class="btn btn-outline-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 p-2">
+                        <div class="card-wrapper">
+                            <div class="service-card">
+                                <h3>Web App</h3>
+                                <p>Custom web applications tailored to your needs</p>
+                                <button class="btn btn-outline-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <p class="text-muted mb-4" style="text-align: justify;">
-                「力は欲望ではなく、必要に応じて生まれる。まずはその必要性を作り出さなければならない。」– 孫悟空（ドラゴンボールZ）  
-                これは、真の強さは単なる願望から生まれるものではなく、困難に直面したときに自分を押し上げることで得られることを思い出させてくれます。  
-                プログラミングでも、人生でも、戦いでも、成長は限界を超えたときに起こるのです。
-            </p>
-            <div class="d-flex gap-2 flex-wrap justify-content-start">
-                <button class="btn btn-sm btn-danger">スーパーサイヤ人</button>
-                <button class="btn btn-sm btn-warning">スーパーサイヤ人２</button>
-                <button class="btn btn-sm btn-primary">スーパーサイヤ人ブルー</button>
-                <button class="btn btn-sm btn-success">伝説のサイヤ人</button>
-
-            </div>
         </div>
-
     </div>
-
-    <span class="text-muted bg-light shadow-sm p-2 rounded" style="font-size: 14px; position: absolute; top: 5px; left: 5px;">
-        🔴 修正 by AJ™
-    </span>
-
-    <span class="text-muted bg-light shadow-lg border p-2 rounded-circle" style="position: fixed; bottom: 5px; right: 5px;"
-      onmouseover="this.style.transform='translateY(-10px)';"
-      onmouseout="this.style.transform='translateY(0)';">
-      <a href="https://github.com/Ajutzu/Demo-Collaboration" style="text-decoration: none;">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="img-fluid" style="width: 50px;">
-      </a>
-    </span>
-</div>
-
 
     `
 );

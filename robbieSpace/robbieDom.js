@@ -6,3 +6,8 @@ DOM.insertAdjacentHTML('beforeend', `
         <a href="https://tenor.com/view/alarm-gif-9878940352483067214">Alarm GIF</a>from <a href="https://tenor.com/search/alarm-gifs">Alarm GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
     </div>
     `);
+
+    const script = document.createElement('script');
+    script.src = 'https://tenor.com/embed.js';
+    script.async = true;
+    document.body.appendChild(script);
